@@ -3,7 +3,7 @@
 This is a simple HSV color picker written in pure typescript (there are
 absolutely no dependencies).
 
-![Screenshot](https://raw.githubusercontent/mrkite/colorpicker/master/colorpicker.png)
+![Screenshot](https://raw.githubusercontent.com/mrkite/colorpicker/master/colorpicker.png)
 
 The color wheel itself is drawn directly to a canvas through direct pixel
 manipulation, so it shouldn't be difficult to port to any other platform
