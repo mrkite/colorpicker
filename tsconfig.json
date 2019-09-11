@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "strictNullChecks": true,
+    "outFile": "colorpicker.js",
+    "target": "ES2017",
+    "sourceMap": true
+  },
+  "files": [
+    "src/helper.ts",
+    "src/picker.ts",
+    "src/wheel.ts"
+  ]
+}

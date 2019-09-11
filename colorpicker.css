@@ -1,0 +1,74 @@
+
+div.picker {
+  position: absolute;
+  width: 420px;
+  z-index: 10000;
+  background: #222;
+  border: 1px solid #eef;
+}
+
+div.picker canvas {
+  margin: 5px;
+  float: left;
+}
+
+div.picker div.controls {
+  float: left;
+}
+
+div.picker div.swatch {
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #eef;
+  background: #000;
+  float: left;
+}
+
+div.picker input[type="text"] {
+  background: #003;
+  color: #dde;
+  border: 1px solid #88a;
+  font-family: monospace;
+}
+
+div.picker input.hex {
+  float: left;
+  width: 80px;
+  margin-top: 30px;
+}
+
+div.picker div.label {
+  width: 30px;
+  float: left;
+  clear: left;
+  margin-top: 2px;
+  text-align: right;
+  font-family: sans-serif;
+}
+
+div.picker input.channel {
+  width: 40px;
+  float: left;
+  margin-left: 5px;
+}
+
+div.picker div.buttonbox {
+  clear: left;
+  padding-top: 10px;
+}
+
+div.picker button {
+  float: right;
+  border: 1px solid #004;
+  background: #889;
+  font-weight: bold;
+  margin-left: 10px;
+  display: block;
+}
+
+div.picker br {
+  clear: left;
+}
